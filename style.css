@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+*{
+    padding-left: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 13px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+header .logoimg{
+    width: 180px;
+    height: 50px;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+}
+.header-menu a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 600;
+    margin-left: 18px;
+    font-size: 15px;
+    padding: 10px;
+}
+.header-menu a:hover{
+    background-color: #cccccc3a;
+}
+.header-signin{
+    display: flex;
+    align-items: center;
+    background-color:#00BAF2;
+    border-radius: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+.header-signin:hover{
+    background-color: #0F4A8A;
+}
+header .Signin-img{
+    width: 25px;
+    height: 25px;
+    
+}
+.header-signin h4{
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+}
